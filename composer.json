@@ -1,0 +1,15 @@
+{
+  "name": "HiveMedia/Icebreath",
+  "description": "Shoutcast/Icase API",
+  "keywords": ["Shoutcast", "Icecast"],
+  "type": "project",
+  "homepage": "http://icebreath.hivemedia.net.au",
+  "require":{
+    "nesbot/carbon":"~1"
+  },
+  "autoload": {
+    "psr-0" : {
+      "HiveMedia\\Icebreath" : "src"
+    }
+  }
+}
